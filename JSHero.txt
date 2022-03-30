@@ -1,0 +1,1002 @@
+1)Declare a variable firstname and initialize it with the value 'Lata'.
+
+ANS:let firstname='Lata';
+
+2)Which value does x have after execution of the following code?
+let x = 'Geeta';
+
+ANS: Geeta
+
+3)Declare a variable flower and assign it the value 'rose'. Declare a second variable tree and assign it the value 'maple'.
+
+ANS:let  flower='rose';
+let tree='maple';
+
+4)Which value does x have after execution of the following code?
+
+let x = 'Tic';
+x = 'Tac';
+x = 'Toe';
+ANS:Toe
+
+5)Which value does x have after execution of the following code?
+let x = 'Laurel';
+let y = 'Hardy';
+let z = y;
+y = x;
+x = z;
+
+ANS:Hardy
+
+6)Define a function hello that returns 'Hello world!'.
+
+ANS:function hello()
+{
+   return 'Hello world!';
+}
+
+7)Define two functions. The first function a should return 'Hello a!' and the second function b should return 'Hello b!'.
+function a()
+{
+    return 'Hello a!';
+}
+function b()
+{
+    return  'Hello b!';
+}
+
+8)1. Define a function greet returning the value 'Haydo!'.
+2. Declare a variable salutation. Call the function greet and assign the result of the call to the variable salutation.
+
+ANS:function greet()
+{
+ return 'Haydo!';
+}
+let salutation =greet();
+
+
+9)Which value does x have after execution of the following code?
+function hello() {
+  return 'Hi!';
+}
+
+let x = hello();
+ANS:Hi
+
+
+10)10)Write a function echo that also returns the passed parameter. echo('Greta') should return 'Greta' and echo('CO2') should return 'CO2'
+
+ANS:function echo(input)
+{
+    return input;
+}
+
+
+11)Which value does x have after execution of the following code?
+ANS:function reply(phrase) {
+  return phrase;
+}
+
+let x = reply('How do you do?');
+HOW DO YOU DO
+
+
+
+12)Example: greet('Ada') should return 'Hello Ada!' and greet('Grace') should return 'Hello Grace!'.
+
+function greet(name)
+{
+ return 'Hello '+name+ '!'
+}
+ HELLO NAME!
+
+
+
+13)Which value does x have after execution of the following code?
+
+function whereIs(name) {
+  return 'Where is ' + name + '?';
+}
+
+let x = whereIs('Jacky');
+
+WHERE IS JACKY?
+
+
+
+14)Which value does x have after execution of the following code?
+function hi(name) {
+  return 'Hi ' + name + '!';
+}
+
+let h1 = hi('Selva');
+let h2 = hi('Pola');
+let x = h1 + ' ' + h2;
+
+ANS:HI SELVA? HI POLA?
+
+15)Write a function log that logs 'Hello Console!'. If you are working with a desktop browser, open the developer tools to see the output there as well.
+
+
+ANS:function log()
+{
+   console.log('Hello Console!');
+}
+
+
+16)Write a function log, that takes a parameter and logs this parameter.
+
+Example: log('Ken Thompson') should log 'Ken Thompson'.
+
+
+ANS:
+function log(value)
+{
+   console.log('Ken Thompson');				KEEN THOMPSON
+	DENNIS RITCHIE
+
+   console.log('Dennis Ritchie');
+}
+	
+
+17)Write a function shout that takes a string and returns this string duplicated. In addition, the return should be logged.
+
+Example: shout('Fire') should return 'FireFire' and should log 'FireFire'.
+
+
+
+ANS:function shout(Fire)
+{
+    let res=Fire+Fire;
+    
+    console.log(res);
+    return res;
+}							FIRE FIRE FIRE
+
+18)Which value does x have after execution of the following code?
+function double(name) {
+  return name + ' and ' + name;
+}
+
+let x = double('Roy');
+
+ANS:Roy and Roy
+
+
+
+19)Example: length('sun') should return 3.
+
+
+function length(name)
+{
+        
+charNumber=name.length;               
+return charNumber;
+}
+
+ANS: LENGTH OF THE NAME
+
+
+
+20)Example: toCase('Mthatha') should return 'mthatha-MTHATHA'.
+
+
+function toCase(name)
+{
+  return output=name.toLowerCase() + '-' + name.toUpperCase();
+}
+  												
+ANS:	name+NAME
+
+
+
+21)Example: shortcut('Amnesty', 'International') should return 'AI'.
+
+function shortcut(name,name1)
+{
+   return char=name.charAt(0)+name1.charAt(0);				
+}						
+
+ANS: RETEIVING ELEMENTS FROM INDEXES
+
+
+22)Example: firstChar(' Rosa Parks ') should return 'R'.
+TO REMOVE BLANK SPACE AND GET THE 1ST ELEMENT
+
+ANS:function shortcut(name,name1)
+{
+   return char=name.charAt(0)+name1.charAt(0);	
+}			
+
+function shortcut(name,name1)
+											
+
+
+23)Example: indexOfIgnoreCase('bit','it') and indexOfIgnoreCase('bit','IT') should return 1.
+
+ANS:function indexOfIgnoreCase(str,str1)
+{
+    let h1=str.toLowerCase();
+    let h2=str1.toLowerCase();
+    return h1.indexOf(h2);
+    
+}
+
+
+24)Write a function indexOfIgnoreCase taking two strings and determining the first occurrence of the second string in the first string. The function should be case insensitive.
+
+Example: indexOfIgnoreCase('bit','it') and indexOfIgnoreCase('bit','IT') should return 1.
+
+ANS:function indexOfIgnoreCase(str,str1)
+{
+    let h1=str.toLowerCase();
+    let h2=str1.toLowerCase();
+    return h1.indexOf(h2);
+    
+}
+
+
+
+
+
+
+25)Example: firstWord('see and stop') should return 'see'.
+
+ANS:function firstWord(str)
+{
+     let s1=str.indexOf(' ');
+     return str.substr(0,s1);
+     
+}
+
+26)Write a function normalize, that replaces '-' with '/' in a date string.
+
+Example: normalize('20-05-2017') should return '20/05/2017'.
+
+Ans:function normalize(date)
+{
+   let newdate=date.replace('-','/');
+   let newd=newdate.replace('-','/');
+   return newd;
+}
+
+
+
+27)Write a function add that takes two numbers and returns their sum.
+
+Example: add(1, 2) should return 3.
+ANS:
+function add(num1,num2)
+{
+ let sum= num1+num2;
+return sum;
+}
+
+
+28)Which value does x have after execution of the following code?
+let x = 3;
+x++;
+x = x * 2;
+x--;						o/p=7
+
+
+29)Write a function toFahrenheit that converts a temperature from Celsius to Fahrenheit.
+
+Example: toFahrenheit(0) should return 32.
+
+ANS:function toFahrenheit(input1)
+{
+   return f=input1*9/5+32;
+}
+toFahrenheit(3);
+
+
+30)Write a function onesDigit that takes a natural number and returns the ones digit of that number.
+
+Example: onesDigit(2674) should return 4.
+ANS:
+function onesDigit(num)
+{
+    return res=num%10;
+     
+}
+
+
+31)Write a function mean that takes 2 numbers and returns their mean value.
+
+Example: mean(1, 2) should return 1.5.
+ANS:
+function mean(n1,n2)
+{
+   return res=(n1+n2)/2;
+}
+
+
+32)Write a function hypotenuse that calculates the length of the hypotenuse of a right triangle. The length of the two legs is passed to the function. Tip: In a right triangle the Pythagorean theorem is valid. If a and b are the lengths of the two legs and c is the length of the hypotenuse, the following is true: a² + b² = c². Since 3² + 4² = 5² applies, hypotenuse(3, 4) should return 5.
+ANS:function hypotenuse(n1,n2)
+{
+   let r1=Math.pow(n1,2)+Math.pow(n2,2);
+   return Math.sqrt(r1);
+}
+
+
+
+33)Write a function midrange, that calculates the midrange of 3 numbers. The midrange is the mean of the smallest and largest number.
+
+Example: midrange(3, 9, 1) should return (9+1)/2 = 5.
+ANS:function midrange(n1,n2,n3)
+{ 
+   let m1=Math.max(n1,n2,n3);
+   let m2=Math.min(n1,n2,n3);
+   return res=(m1+m2)/2;
+}
+
+
+34)Write a function round100 that rounds a number to the nearest hundred.
+
+Example: round100(1749) should return 1700 and round100(856.12) should return 900.
+
+ANS:
+function round100(num)
+{
+
+   return Math.round(num/100)*100;
+  
+}
+   
+
+
+35)Write a function round100 that rounds a number to the nearest hundred.
+
+Example: round100(1749) should return 1700 and round100(856.12) should return 900.
+ANS:function round100(num)
+{
+
+   return Math.round(num/100)*100;
+  
+}
+
+37)Write a function add that takes a string with a summation task and returns its result as a number. Two natural numbers should be added. The summation task is a string of the form '102+17'.
+
+Example: add('102+17') should return 119.
+
+ANS:function add(s) {
+  let summand1 = parseInt(s, 10);
+  let indexPlus = s.indexOf('+');
+  let sAfterPlus = s.substr(indexPlus + 1);
+  let summand2 = parseInt(sAfterPlus, 10);
+  return summand1 + summand2;
+}
+
+
+38)
+I.e.: The call nand(true, true) should return false. The calls nand(true, false), nand(false, true) and nand(false, false) should return true.
+ANS:
+function nand(a,b)
+{
+ let and=a&&b;
+ return !and;
+}
+
+
+
+38)Write a function nor that takes two Boolean values. If both values are false, the result should be true. In the other cases the return should be false.
+
+I.e.: The call nor(false, false) should return true. The calls nor(true, false), nor(false, true) and nor(true, true) should return false.
+ANS:function nor(n1,n2)
+{
+ let or=n1||n2;
+  return !or;
+}
+ 
+39)Write a function xor that takes two Boolean values. If both values are different, the result should be true. If both values are the same, the result should be false.
+
+I.e.: The calls xor(true, false) and xor(false, true) should return true. The calls xor(true, true) and xor(false, false) should return false.
+ANS:function xor(num1,num2)
+{
+  return (num1||num2)&&!(num1&&num2);
+ 
+}
+
+40)Write a function equals that checks two values for strict equality.
+
+Example: equals(1, 1) should return true and equals(1, 2) should return false.
+ANS:function equals(n1,n2)
+{
+  return n1===n2;
+}
+
+
+
+41)Write a function equals that checks 3 values for strict equality. The function should only return true if all 3 values are equal.
+
+Example: equals(1, 1, 1) should return true and equals(1, 2, 1) should return false.
+ANS:function equals(n1,n2,n3)
+{
+   return n1===n2&&n1===n3;
+   
+}
+
+42)Example: isEven(2) should return true and isEven(3) should return false.
+ANS:function isEven(num1)
+{
+ return num1%2==0;
+}
+
+
+43)Example: unequal(1, 2, 3) should return true and unequal(1, 1, 2) should return false.
+ANS:function unequal(n1,n2,n3)
+{
+    return n1!==n2 && n1!==n3 &&n2!==n3;
+}
+
+
+44)Example: isThreeDigit(500) should return true and isThreeDigit(50) should return false.
+ANS:function isThreeDigit(num)
+{
+     return num>=100 && num<1000;
+}
+
+
+45)Example: equals(1, 1) should return 'EQUAL' and equals(1, 2) should return 'UNEQUAL'.
+ANS:function equals(n1,n2)
+{
+    let result='UNEQUAL';
+    if(n1===n2)
+    {
+       result='EQUAL';
+    }
+    return result;
+}
+
+46)Example: repdigit(22) should return 'Repdigit!' and repdigit(23) should return 'No Repdigit!'.
+
+ANS:function repdigit(num)
+{
+   let m1=num%10;
+   let m2=Math.floor(num/10);
+   let res='No Repdigit!';
+   if(m1===m2)
+   {
+      res='Repdigit!';
+   }
+return res;
+}
+
+
+47)addWithSurcharge(5, 15) should return 23.n<10 add1,n2>10 add2
+
+ANS:function addWithSurcharge(n1,n2)
+{
+   let a=0;
+   if(n1<=10)
+   { 
+     a=a+1;
+   }
+   else
+   {   
+    a=a+2;
+   }
+
+
+
+   if(n2<=10)
+   {   
+    a=a+1;
+   }
+   else
+   { 
+      a=a+2;
+   }
+   return n1+n2+a;
+}
+
+
+
+48)ELSE IF if n<10 add 1,n1>10&<20 add2 ,n1>20 add 3
+
+function addWithSurcharge(n1,n2)
+{
+   let sum=0;
+   if(n1<=10)
+   {
+      sum=sum+1;
+   }
+   else if(n1>10 && n1<=20)
+   {
+     sum=sum+2;
+   }
+   else 
+   {
+      sum=sum+3;
+   }
+
+
+
+   if(n2<=10)
+   {
+      sum=sum+1;
+   }
+   else if(n2>10 && n2<=20)
+   {
+     sum=sum+2;
+   }
+   else 
+   {
+      sum=sum+3;
+   }
+    
+   return n1+n2+sum;
+}
+
+
+49)Write a function toArray that takes 2 values and returns these values in an array.
+
+Example: toArray(5, 9) should return the array [5, 9].
+
+ANS:function toArray(n1,n2)
+{ 
+   return [n1,n2];
+}
+
+
+50)Write a function getFirstElement that takes an array and returns the first element of the array.
+
+Example: getFirstElement([1, 2]) should return 1.
+ANS:function getFirstElement([n1,n2])
+{
+  let a=[n1,n2]
+  return a[0];
+}
+
+51)Example: setFirstElement([1, 2], 3) should return [3, 2].
+ANS:function setFirstElement(aArray,n3)
+{
+    aArray[0]=n3;
+   return aArray;
+}
+
+53)Write a function getLastElement that takes an array and returns the last element of the array.
+
+Example: getLastElement([1, 2]) should return 2.
+ANS:function getLastElement(anArray)
+{
+  let n=anArray.length-1;
+  return anArray[n];
+ 
+}
+
+54)Write a function sort that takes an array filled with 3 numbers and returns these 3 numbers sorted in ascending order as an array.
+
+Example: sort([2, 3, 1]) should return [1, 2, 3].
+
+ANS:function sort(anArray)
+{
+   return anArray.sort();
+}
+
+55)Write a function rotate that rotates the elements of an array. All elements should be moved one position to the left. The 0th element should be placed at the end of the array. The rotated array should be returned.
+
+Example: rotate(['a', 'b', 'c']) should return ['b', 'c', 'a'].
+SHIFT-removes 1st element from arr[],PUSH add an element at the end of arr[]
+
+
+ANS:function rotate(anArray)
+{
+  let b=anArray.shift();
+  anArray.push(b);
+  return anArray;
+}
+
+
+56)Write a function add that adds an element to the end of an array. However, the element should only be added if it is not already in the array.
+
+Example: add([1, 2], 3) should return [1, 2, 3] and add([1, 2], 2) should return [1, 2].
+
+ANS:function add(anArray,n)
+{
+   let n1=n;
+   let a=anArray.indexOf(n1);
+   if(a == -1)
+   {
+     anArray.push(n1);
+   }
+   return anArray;
+
+}
+
+57)
+Example: concatUp([1, 2], [3]) should return [3, 1, 2] and concatUp([5, 7], [6, 8]) should return [5, 7, 6, 8].
+
+ANS:function concatUp(aArray,bArray)
+{
+   if(bArray.length>=aArray.length)
+   {
+       return aArray.concat(bArray);
+   }
+   return bArray.concat(aArray);
+}
+
+58)Write a function halve that copies the first half of an array. With an odd number of array elements, the middle element should belong to the first half.
+
+Example: halve([1, 2, 3, 4]) should return [1, 2].
+
+ANS:function halve(array){
+   let half= Math.ceil(array.length/2);
+return array.slice(0,half);}
+ 
+59)Write a function list that takes an array of words and returns a string by concatenating the words in the array, separated by commas and - the last word - by an 'and'. An empty array should return an empty string.
+
+Example: list(['Huey', 'Dewey', 'Louie']) should return 'Huey, Dewey and Louie'.
+ ANS:function list(anArray)
+{
+   let n=anArray.length;
+   if(n==0)
+   {
+      return '';
+   }
+   if(n==1)
+   {
+     return anArray[0];
+   }
+   
+   let x=anArray.slice(0,n-1);
+   let y=anArray[anArray.length-1];
+   return x.join(', ') + ' and ' + y;
+ 
+}
+
+60)Write a function flat that flattens a two-dimensional array with 3 entries.
+
+Example: flat(loshu) should return [4, 9, 2, 3, 5, 7, 8, 1, 6]. Thereby loshu is the magic square from the example above.
+ 
+ANS:function flat (arr) {
+
+let entryA = arr[0]; 
+let entryB = arr[1]; 
+let entryC = arr[2]; 
+
+let finalD = entryA.concat(entryB, entryC);
+
+return finalD;
+
+};
+
+61)Write a function median that takes an array of ascending numbers and returns the median of that numbers.
+
+Example: median([1, 2, 10]) should return 2 and median([1, 2, 10, 100]) should return 6.
+
+ANS:const median = arr => {
+  const mid = Math.floor(arr.length / 2),
+    nums = [...arr].sort((a, b) => a - b);
+  return arr.length % 2 !== 0 ? nums[mid] : (nums[mid - 1] + nums[mid]) / 2;
+};
+console.log(median([5, 6, 50, 1, -5]));
+console.log(median([1, 2, 3, 4, 5]));
+
+
+62)Write a function hello having one parameter and returning 'Hello <parameter>!'. If hello is called without an argument, 'Hello world!' should be returned.
+
+Example: hello('Nala') should return 'Hello Nala!'.
+
+ANS:function hello  (p){
+
+if(p === undefined){
+
+return `Hello world!`;
+
+} else { 
+
+return `Hello ${p}!`}
+};
+
+63)Example: cutCommt('let foo; // bar') should return 'bar'.
+ANS:function cutComment (line) {
+
+let a = line.indexOf('//'); 
+
+if (a === -1) { 
+
+return null; 
+
+} else {
+
+return line.slice(a+2).trim(); 
+
+}};
+
+64)Write a function addTo that accepts a number as a parameter and adds all natural numbers smaller or equal than the parameter. The result is to be returned.
+
+Example: addTo(3) should return 1+2+3 = 6.
+ANS:function addTo(num)
+{
+    let sum=0;
+    for(let i=0;i<=num;i++)
+   {
+      sum=sum+i;
+   }
+return sum;
+}
+
+
+65)Write a function factorial that calculates the factorial of a positive integer.
+
+Example: factorial(3) should return 6.
+
+ANS:function factorial(num)
+{
+  let pwr=1;
+  let sum=0;
+  for(let i=num;i>0;i--)
+  {
+     pwr=pwr*i;
+  }
+  sum+=pwr;
+return sum;
+}
+
+66)Example: mean([1, 2, 3]) should return (1+2+3)/3 = 2.
+ANS:function mean(anArray)
+{
+   
+   let pwr=0;
+   for(let i=0;i<anArray.length;i++)
+   {
+     pwr=pwr+anArray[i];
+    
+   }
+   return pwr/anArray.length;
+}
+
+67)Write a function spaces that takes a natural number n and returns a string of n spaces.
+
+Example: spaces(1) should return ' '.
+
+ANS:function spaces(n)
+{ 
+
+   let m= '';
+   while(n-- > 0)
+     
+      m += ' ';
+   
+   return m;
+}
+
+68)Example: lcm(4, 6) should return 12.
+ANS:function lcm(a, b) {
+
+  let theLCM = 0;
+  let remainderA;
+  let remainderB;
+
+  do {
+
+    theLCM++;
+    remainderA = theLCM % a;
+    remainderB = theLCM % b;
+
+  } while (remainderA !== 0 || remainderB !== 0)
+
+  return theLCM;
+}
+
+
+69)Write a function gcd that takes two natural numbers and calculates their gcd.
+
+Example: gcd(6, 15) should return 3.
+
+ANS:function gcd(a,b)
+{
+   if(( typeof a!=='number')|| (typeof b!=='number'))
+      return false;
+    a=Math.abs(a);
+    b=Math.abs(b);
+   while(b)
+  {
+    let x=b;
+    b=a%b;
+    a=x;
+  }
+ return a;
+console.log(gcd(6,15));
+}
+
+70)
+Example: isPrime(7) should return true and isPrime(8) should return false.
+ANS:function isPrime (n) {
+
+if (n <= 1) return false; 
+
+for (let i = 2; i < n; i++) 
+
+if (n % i == 0) return false; 
+
+return true; 
+
+}
+
+
+71)Example: sum([[1, 2], [3]]) should return 6.
+ANS:function sum (ar) {
+
+let arr2 = ar.flat(); 
+
+return arr2.reduce((a, b) => a + b, 0);
+
+}
+
+
+
+72)Example: max(1, 2) should return 2 and max(2, 3, 1) should return 3.
+
+ANS:function max () {
+
+let acb = [...arguments]; 
+
+acb.sort((a, b) => b - a);
+
+return acb[0];
+
+}
+
+
+73)Example: parseFirstInt('No. 10') should return 10 and parseFirstInt('Babylon') should return NaN.
+ANS:function parseFirstInt (input) {
+
+  let inputToParse = input;
+
+  
+for (let i = 0; i < input.length; i++) {
+   
+ let firstInt = parseInt(inputToParse);
+   
+ if (!Number.isNaN(firstInt)) {
+      
+     return firstInt;
+
+}
+
+     inputToParse = inputToParse.substr(1);
+
+}
+
+return NaN;
+};
+ 
+74)Example: add('7+12+100') should return 119.
+ANS:function add (str) 
+{
+
+const red = (acc, cv) => acc + cv; 
+let abcd = str; 
+let cdef = abcd.split('+').map(Number); 
+
+return cdef.reduce(red); 
+
+}
+
+75)Write a function sum that takes an array of numbers and returns the sum of these numbers. Write a function mean that takes an array of numbers and returns the average of these numbers. The mean function should use the sum function.
+ANS:function sum (arr) {
+
+let totalSum = arr.reduce((acc,cv) => acc + cv);
+
+return  totalSum; 
+
+}; 
+
+function mean (arr) {
+
+let meanVal = sum(arr) / arr.length;
+
+return meanVal;
+
+};
+
+76)Example: reverse('live') should return 'evil'.
+
+
+ANS:function reverse (str) {
+
+if (str < 1) {
+
+return ''; 
+
+} else {
+
+return reverse(str.substr(1)) + str.charAt(0);
+
+}
+};
+
+77)Write a function arabic that converts a Roman number (up to 1000) into an Arabic.
+
+Example: arabic('CDLXXXIII') should return 483.
+
+ANS:function arabic (s) 
+{
+
+let romanObj = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000
+ }; 
+let arabicArr = []; 
+
+for (let i = 0; i < s.length; i++) 
+{
+
+if (romanObj[s[i]] < romanObj[s[i+1]]) 
+{
+
+arabicArr.push(romanObj[s[i+1]] - romanObj[s[i]]); 
+i++; 
+continue;
+} else {arabicArr.push(romanObj[s[i]]);}
+
+}
+return arabicArr.reduce((acc,cv) => acc + cv);
+}
+
+
+78)Write a function roman that converts an Arabic number (up to 1000) into a Roman numeral.
+
+Example: roman(483) should return 'CDLXXXIII'.
+
+ANS:function roman (n) {
+
+let romanObj = {
+
+M: 1000, 
+CM: 900, 
+D: 500,
+CD: 400,
+C: 100,
+XC: 90,
+L: 50,
+XL: 40,
+X: 10,
+IX: 9,
+V: 5,
+IV: 4,
+I: 1
+
+};
+
+let roman2 = ''; 
+
+for (let key in romanObj) {
+
+while (n >= romanObj[key]) {
+
+roman2 += key;
+n -= romanObj[key]; 
+
+}
+}
+return roman2; 
+};
+
+79)Write a function sumMultiples taking a natural number n and returning the sum of all multiples of 3 and of 5 that are truly less than n.
+
+Example: All multiples of 3 and 5 less than 20 are 3, 5, 6, 9, 10, 12, 15 and 18. Their sum is 78. sumMultiples(20) should return 78.
+
+ANS:function sumMultiples (n) {
+
+let sum = 0; 
+
+for (let i = 1; i < n; i++) {
+if (i % 3 === 0 || i % 5 === 0) {sum += i;}
+}
+
+return sum; 
+
+};
+
+
+80)Example: digitsum(192) should return 12.
+
+ANS:function digitsum (n) 
+{
+
+let digits = n.toString().split('').map(x => x * 1); 
+let sum = digits.reduce((acc,cv) => acc + cv); 
+return sum;
+};
